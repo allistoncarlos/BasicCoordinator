@@ -60,8 +60,4 @@ class FirstViewController: UIViewController, UIViewControllerConfigurable, Coord
     @objc func buttonTapped() {
         self.coordinator.navigateToSecondScreen()
     }
-    
-    deinit {
-        print("DEINIT")
-    }
 }
